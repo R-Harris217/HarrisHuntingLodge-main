@@ -3,19 +3,19 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(232, 224, 199);
-    padding: 20px;
+    padding: 0px;
     font-family: "Cinzel", serif;
     position: relative;
   }
   
   .title {
-    font-size: 28px;
+    font-size: 36px;
     color: rgb(33, 51, 10);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -90%);
   }
   
   .contactInfo {
@@ -32,7 +32,21 @@
   }
 
   .logo {
-    max-height: 100px; /* Adjust the logo height */
+    max-height: 200px; /* Adjust the logo height */
     width: auto;
   }
   
+  @media screen and (max-width: 767px) {
+    .title {
+      font-size: 20px;
+      transform: translate(-50%, -70%); 
+    }
+  
+    .contactInfo {
+      display: none; /* Hide contact info on small screens */
+    }
+  
+    .logo {
+      max-height: 40px; /* Decrease logo size on small screens */
+    }
+  }
