@@ -1,0 +1,38 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(232, 224, 199);
+    padding: 20px;
+    font-family: "Cinzel", serif;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(33, 51, 10);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  
+  .contactInfo {
+    text-align: right;
+    color: rgb(33, 51, 10);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+  
+  .email {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .logo {
+    max-height: 100px; /* Adjust the logo height */
+    width: auto;
+  }
+  
