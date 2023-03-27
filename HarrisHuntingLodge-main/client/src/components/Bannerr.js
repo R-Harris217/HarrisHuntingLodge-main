@@ -1,15 +1,23 @@
 import React from 'react';
 import styles from './Banner.module.css';
 
-function Bannerr({ lodgeLogo }) {
+function Bannerr({ lodgeLogo, additionalLogo }) {
   return (
     <div className={styles.headerContainer}>
-      <h1 className={styles.title}>Harris Hunting Lodge</h1>
       {lodgeLogo && <img className={styles.logo} src={lodgeLogo} alt="Harris Hunting Lodge logo" />}
-      <div className={styles.contactInfo}>
-        <p>Texas County, MO</p>
-        <p className={styles.email}>harrishuntinglodge@gmail.com</p>
+      <div className={styles.titleAndLocation}>
+        <h1 className={styles.title}>Harris Hunting Lodge</h1>
+        <p className={styles.location}>Texas and Phelps County, MO</p>
       </div>
+      <div className={styles.contactInfo}>
+        {additionalLogo && (
+          <img
+            className={styles.additionalLogo}
+            src={additionalLogo}
+            alt="Additional logo"
+          />
+        )}
+        </div>
     </div>
   );
 }
