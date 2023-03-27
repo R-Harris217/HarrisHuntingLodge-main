@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(232, 224, 199);
-    padding: 0px;
+    padding: 5px;
     font-family: "Cinzel", serif;
     position: relative;
   }
@@ -16,10 +16,27 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -90%);
+    margin-bottom: 5px;
+  }
+
+  .location {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(33, 51, 10);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-align: center;
+  }
+
+  .titleAndLocation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
   
   .contactInfo {
-    text-align: right;
     color: rgb(33, 51, 10);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-weight: bold;
@@ -33,6 +50,11 @@
 
   .logo {
     max-height: 200px; /* Adjust the logo height */
+    width: auto;
+  }
+
+  .additionalLogo {
+    max-height: 200px;
     width: auto;
   }
   

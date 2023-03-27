@@ -8,12 +8,13 @@ import HomePage from './components/HomePage';
 import Bannerr from './components/Bannerr';
 import Navbar from './components/Navbar';
 import lodgelogo from './assets/logo.png';
+import additionalLogo from './assets/logo.png.png';
 
 
 function App() {
   return (
     <div className="App">
-      <Bannerr lodgeLogo={lodgelogo} />
+      <Bannerr lodgeLogo={lodgelogo} additionalLogo={additionalLogo} />
       <Navbar />
      
       
