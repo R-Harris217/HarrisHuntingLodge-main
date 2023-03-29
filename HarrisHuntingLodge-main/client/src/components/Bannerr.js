@@ -7,7 +7,7 @@ function Bannerr({ lodgeLogo, additionalLogo }) {
       {lodgeLogo && <img className={styles.logo} src={lodgeLogo} alt="Harris Hunting Lodge logo" />}
       <div className={styles.titleAndLocation}>
         <h1 className={styles.title}>Harris Hunting Lodge</h1>
-        <p className={styles.location}>Texas and Phelps County, MO</p>
+        <p className={styles.location}>Licking, MO</p>
       </div>
       <div className={styles.contactInfo}>
         {additionalLogo && (

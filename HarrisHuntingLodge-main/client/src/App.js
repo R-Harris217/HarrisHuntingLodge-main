@@ -7,8 +7,8 @@ import Home from './components/Home';
 import HomePage from './components/HomePage';
 import Bannerr from './components/Bannerr';
 import Navbar from './components/Navbar';
-import lodgelogo from './assets/logo.png';
-import additionalLogo from './assets/logo.png.png';
+import lodgelogo from './assets/HarrisHuntingLogo.png';
+import additionalLogo from './assets/logo.png';
 
 
 function App() {
