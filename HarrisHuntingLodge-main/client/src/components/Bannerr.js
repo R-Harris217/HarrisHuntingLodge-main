@@ -105,10 +105,12 @@ function Bannerr({ lodgeLogo }) {
       {mobileNavOpen && (
       <div className={`${styles.mobileNav} ${mobileNavOpen ? styles.mobileNavOpen : ''}`}>
         <button className={styles.closeButton} onClick={() => setMobileNavOpen(false)}>X</button>
+        <div className={styles.mobileMenuLinksContainer}>
         <Link to="/" className={styles.navLink}>Home</Link>
         <Link to="/about" className={styles.navLink}>About Us</Link>
         <Link to="/gallery" className={styles.navLink}>Gallery</Link>
         <Link to="/contact" className={styles.navLink}>Contact</Link>
+        </div>
       </div>
     )}
     <div className={styles.infoBar}>

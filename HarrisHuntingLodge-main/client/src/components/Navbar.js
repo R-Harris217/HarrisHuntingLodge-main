@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@reach/router'; // Import Link from @reach/router instead of react-router-dom
+import { Link } from '@reach/router'; 
 import styles from './Navbar.module.css';
 
 function Navbar() {

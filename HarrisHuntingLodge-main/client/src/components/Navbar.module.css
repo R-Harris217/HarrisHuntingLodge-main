@@ -4,7 +4,7 @@
     align-items: center;
     background-color: rgb(17, 40, 2);
     font-family: "Cinzel", serif;
-    height: 50px; /* Adjust the height to control the thickness of the navbar */
+    height: 50px; 
   }
   
   .navLink {
