@@ -72,7 +72,10 @@ function Bannerr({ lodgeLogo }) {
           <p className={styles.location}>Licking, MO</p>
         </div>
         <div className={styles.rightSection}>
-          <p className={styles.email}>harrishuntinglodge@gmail.com</p>
+        <a href="mailto:harrishuntinglodge@gmail.com" className={styles.email}>
+  harrishuntinglodge@gmail.com
+</a>
+
           <div className={styles.weather}>
             <span className={styles.weatherText}>
               Current weather & time in Licking, MO:{" "}
@@ -121,7 +124,10 @@ function Bannerr({ lodgeLogo }) {
         <span className={styles.temperature}>{temperature}</span>
         <span className={styles.currentTime}>{currentTime}</span>
       </div>
-      <p className={styles.email}>harrishuntinglodge@gmail.com</p>
+      <a href="mailto:harrishuntinglodge@gmail.com" className={styles.email}>
+  harrishuntinglodge@gmail.com
+</a>
+
     </div>
   </div>
 );
