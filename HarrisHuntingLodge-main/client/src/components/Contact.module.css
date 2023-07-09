@@ -1,0 +1,39 @@
+.contactContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .lineBreak {
+    width: 50px;
+    border-top: 1px solid rgb(51, 41, 24);
+    margin: 0 auto 20px;
+  }
+  
+  .contactTitle {
+    font-family: "Cinzel", serif;
+    color: rgb(51, 41, 24);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  .smallText {
+    font-size: 1em;
+    color: gray;
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  .email {
+    font-size: 1.2em;
+    color: rgb(102, 51, 0);
+    margin: auto;
+    max-width: 800px;
+  }
+  
