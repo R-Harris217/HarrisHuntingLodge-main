@@ -2,6 +2,11 @@
     text-align: center;
     padding: 20px;
   }
+
+  .contactImage {
+    max-width: 100%;
+    height: auto;
+  }
   
   .lineBreak {
     width: 50px;

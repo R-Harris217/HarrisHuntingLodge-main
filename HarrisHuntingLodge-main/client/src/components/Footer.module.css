@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240, 234, 214);
+    color: rgb(51, 41, 24);
+    font-family: 'Cinzel', serif;
+    position: relative;
+    clear: both;
+    font-weight: bold;
+  }
+
+  .emailLink{
+    color: rgb(102, 51, 0);
+    text-decoration: none;
+  }
+  
+  .left, .right {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+  

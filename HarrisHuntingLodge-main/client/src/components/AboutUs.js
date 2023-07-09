@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../assets/aboutImage.jpg'; // Replace with the actual path to your image
+import aboutImage from '../assets/aboutImage.jpg'; 
 import styles from './AboutUs.module.css';
 
 const AboutUs = () => {
