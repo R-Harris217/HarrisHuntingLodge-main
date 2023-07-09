@@ -3,7 +3,7 @@
   heart of beautiful Texas County Missouri. Our property has been in our family
   since 1960 and we are proud to continue the tradition of providing a place for
   outdoor enthusiasts to enjoy a variety of activities, including whitetail deer
-  hunting, camping, hiking, and 4 wheeling. At Harris Hunting Lodge, we believe
+  hunting, camping, hiking, fishing, and 4 wheeling. At Harris Hunting Lodge, we believe
   that the great outdoors is a place for everyone to enjoy, regardless of age or
   experience. That's why we offer a range of activities that cater to all levels
   of ability, from the seasoned hunter to the beginner hiker. We also welcome
