@@ -6,8 +6,6 @@ const importAllImages = (r) => {
   return r.keys().map(r);
 };
 
-
-
 const images = importAllImages(require.context('../assets/Gallery', false, /\.(jpeg|jpg)$/));
 
 const Gallery = () => {
@@ -22,8 +20,6 @@ const Gallery = () => {
   function closeModal() {
     setModalIsOpen(false);
   }
-
-  
 
   return (
     <div className={styles.gallery}>
