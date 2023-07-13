@@ -1,0 +1,45 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.textBlock {
+    color: black;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 70%;
+    margin-bottom: 2rem;
+}
+
+.button {
+    color: white;
+    background-color: darkblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+}

@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className={styles.right}>
       <a href="mailto:harrishuntinglodge@gmail.com" className={styles.emailLink}>harrishuntinglodge@gmail.com</a> <br />
-        {/* 314-944-2619 */}
+        314-944-2619
       </div>
     </footer>
   );

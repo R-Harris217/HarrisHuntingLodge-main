@@ -48,7 +48,7 @@ function Bannerr({ lodgeLogo }) {
   useEffect(() => {
     fetchWeather();
     const interval = setInterval(() => {
-      setCurrentTime(new Date().toLocaleTimeString());
+      setCurrentTime(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
     }, 1000);
 
     return () => clearInterval(interval);
@@ -77,16 +77,20 @@ function Bannerr({ lodgeLogo }) {
 </a>
 
           <div className={styles.weather}>
+            <div>
             <span className={styles.weatherText}>
               Current weather & time in Licking, MO:{" "}
             </span>
+            </div>
             <img
               className={styles.weatherImg}
               src={weatherIconSrc}
               alt="Weather icon"
             />
             <span className={styles.temperature}>{temperature}</span>
+            <div>
             <span className={styles.currentTime}>{currentTime}</span>
+            </div>
           </div>
 
           <div className={styles.navLinks}>
