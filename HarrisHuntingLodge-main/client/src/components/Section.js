@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Section.module.css';
 
-const Section = ({ title, text, imageSrc, imageOnRight }) => (
-    <div className={styles.section}>
+const Section = ({ title, text, imageSrc, imageOnRight, showDivider }) => (
+    <div className={`${styles.section} ${showDivider ? styles.withDivider : ''}`}>
         {imageOnRight ? (
             <>
                 <div>
