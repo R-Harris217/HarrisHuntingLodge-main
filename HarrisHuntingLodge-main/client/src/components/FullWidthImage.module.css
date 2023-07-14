@@ -1,0 +1,26 @@
+.imageContainer {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid brown;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
