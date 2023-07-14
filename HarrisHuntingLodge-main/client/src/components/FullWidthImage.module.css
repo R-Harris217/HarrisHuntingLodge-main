@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 1250px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@
 
   @media screen and (min-width: 3000px) {
     .imageContainer {
-      height: 1000px; 
+      height: 1250px; 
     }
   }
 
