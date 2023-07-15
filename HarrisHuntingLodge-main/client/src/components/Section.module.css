@@ -30,28 +30,110 @@
 
 .image {
     width: 50%;
+    height: 500px;
     padding: 20px;
 }
 
 .title {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', serif;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .text {
     font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+@media screen and (max-width: 1520px) { 
+  .title {
+    font-size: 24px; 
+    margin-left: 20px;
+  }
+  
+  .text {
+    font-size: 16px; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
+  .image {
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+}
 
-@media screen and (max-width: 768px) { 
+}
+
+@media screen and (max-width: 904px) { 
+  .title {
+    font-size: 20px; 
+    margin-left: 20px;
+  }
+  
+  .text {
+    font-size: 14px; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .image {
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 684px) { 
+  .title {
+    font-size: 18px; 
+    margin-left: 20px;
+  }
+  
+  .text {
+    font-size: 13px; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .image {
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+  }
+
+  @media screen and (max-width: 596px) { 
+    .section {
+      flex-direction: column;
+    }
+
     .title {
-      font-size: 24px; 
+      font-size: 16px; 
+      margin-left: 20px;
+      text-align: center;
     }
     
     .text {
-      font-size: 16px; 
+      font-size: 13px; 
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
     }
+  
+    .image {
+      width: 75%;
+      height: 100%;
+      padding: 20px;
+      order: 2;
   }
+  
+    }
   

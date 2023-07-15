@@ -6,11 +6,11 @@
   .lineBreak {
     width: 50px;
     border-top: 1px solid rgb(51, 41, 24);
-    margin: 0 auto 20px; /* center the line and add some space below it */
+    margin: 0 auto 20px; 
   }
   
   .aboutImage {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
   }
   
@@ -22,10 +22,10 @@
   }
   
   .aboutText {
-    font-size: 1.2em; /* Adjust as needed */
+    font-size: 1.2em; 
     line-height: 1.6;
     text-align: left;
     margin: auto;
-    max-width: 800px; /* This will center the text while keeping it readable on larger screens */
+    max-width: 800px; 
   }
   
