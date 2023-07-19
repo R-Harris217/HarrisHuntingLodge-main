@@ -37,13 +37,19 @@
 
   @media screen and (min-width: 3000px) {
     .imageContainer {
+      height: 1400px; 
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .imageContainer {
       height: 1250px; 
     }
   }
 
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     .imageContainer {
-      height: 800px; 
+      height: 1000px; 
     }
   }
 
