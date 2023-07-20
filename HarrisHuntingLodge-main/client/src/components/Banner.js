@@ -60,6 +60,7 @@ function Bannerr({ lodgeLogo }) {
         <div className={styles.mobileMenuIcon} onClick={toggleMobileNav}>
           <FaBars />
         </div>
+        <Link to="/">
         {lodgeLogo && (
           <img
             className={styles.logo}
@@ -67,6 +68,7 @@ function Bannerr({ lodgeLogo }) {
             alt="Harris Hunting Lodge logo"
           />
         )}
+        </Link>
         <div className={styles.titleAndLocation}>
           <h1 className={styles.title}>Harris Hunting</h1>
           <p className={styles.location}>Licking, MO</p>
